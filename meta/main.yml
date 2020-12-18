@@ -1,16 +1,12 @@
 ---
 
-dependencies:
-
-  - role: devoinc.ansible_plugins
-
 galaxy_info:
 
   role_name: 'sudo'
-  author: 'Maciej Delmanowski'
+  author: 'Fran Rodríguez'
   description: 'Configure sudo support on a host'
-  company: 'DebOps'
-  license: 'GPL-3.0'
+  company: 'Devo Inc.'
+  license: 'MIT'
   min_ansible_version: '2.4.0'
   platforms:
     - name: Ubuntu
@@ -27,3 +23,8 @@ galaxy_info:
     - authentication
     - authorization
     - security
+
+dependencies:
+
+  - role: devoinc.ansible_plugins
+
